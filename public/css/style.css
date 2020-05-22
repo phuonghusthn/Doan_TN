@@ -1,0 +1,51 @@
+.combobox-style {
+    margin: 10px;
+}
+
+.test {
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    min-height: 120px;
+    background: rgb(76, 175, 80);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-lock {
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    display: grid;
+    margin-top: 30px;
+}
+
+.around {
+    border: 1px solid red;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.title-style {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.space-button {
+    width: 20px;
+}
+
+.div-control {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.div-hover :hover {
+    background: coral;
+}
